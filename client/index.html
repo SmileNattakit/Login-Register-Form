@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+  </head>
+  <body class="position-relative min-vh-100">
+    <div
+      class="position-fixed top-0 start-0 w-100 h-100"
+      style="
+        background-image: url('/public/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: -2;
+      "
+    ></div>
+    <div
+      class="position-fixed top-0 start-0 w-100 h-100 bg-black opacity-50"
+      style="z-index: -1"
+    ></div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
